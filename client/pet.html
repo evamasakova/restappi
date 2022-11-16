@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="./res/css/style.css" />
   </head>
   <body>
-    <a href="./pet.html">pet</a>
+    <a href="./"></a>
     <div class="container box">
       <div class="columns">
         <div class="column">
           <div class="control">
-            <a class="button is-info" id="getAllBooksBtn"> GET all books </a>
+            <a class="button is-info" id="getAllPetsBtn"> GET all pets </a>
           </div>
         </div>
         <div class="column">
           <div class="field has-addons">
             <div class="control">
-              <input class="input" type="text" placeholder="Book ID" id="getBookByIdInput"/>
+              <input class="input" type="text" placeholder="Pet ID" id="getPetByIdInput"/>
             </div>
             <div class="control">
-              <a class="button is-info" id="getBookByIdBtn"> GET by ID </a>
+              <a class="button is-info" id="getPetByIdBtn"> GET by ID </a>
             </div>
           </div>
         </div>
@@ -31,9 +31,11 @@
             <div class="control">
               <input class="input" type="text" placeholder="name" id="postNameInput"/>
               <input class="input" type="number" placeholder="year" id="postYearInput"/>
+              <input class="input" type="text" placeholder="breed" id="postBreedInput"/>
+              <input class="input" type="text" placeholder="color" id="postColorInput"/>
             </div>
             <div class="control">
-              <a class="button is-info" id="postBookBtn"> POST </a>
+              <a class="button is-info" id="postPetBtn"> POST </a>
             </div>
           </div>
         </div>
@@ -45,9 +47,11 @@
               <input class="input" type="text" placeholder="ID" id="putIdInput"/>
               <input class="input" type="text" placeholder="name" id="putNameInput"/>
               <input class="input" type="text" placeholder="year" id="putYearInput"/>
+              <input class="input" type="text" placeholder="breed" id="putBreedInput"/>
+              <input class="input" type="text" placeholder="color" id="putColorInput"/>
             </div>
             <div class="control">
-              <a class="button is-info" id="putBookBtn"> PUT </a>
+              <a class="button is-info" id="putPetBtn"> PUT </a>
             </div>
           </div>
         </div>
@@ -57,25 +61,27 @@
               <input class="input" type="text" placeholder="ID" id="patchIdInput"/>
               <input class="input" type="text" placeholder="name" id="patchNameInput"/>
               <input class="input" type="text" placeholder="year" id="patchYearInput"/>
+              <input class="input" type="text" placeholder="breed" id="patchBreedInput"/>
+              <input class="input" type="text" placeholder="color" id="patchColorInput"/>
             </div>
             <div class="control">
-              <a class="button is-info" id="patchBookBtn"> PATCH </a>
+              <a class="button is-info" id="patchPetBtn"> PATCH </a>
             </div>
           </div>
         </div>
         <div class="column">
           <div class="field has-addons">
             <div class="control">
-              <input class="input" type="text" placeholder="Book ID" id="deleteIdInput"/>
+              <input class="input" type="text" placeholder="Pet ID" id="deleteIdInput"/>
             </div>
             <div class="control">
-              <a class="button is-info" id="deleteBookBtn"> DELETE </a>
+              <a class="button is-info" id="deletePetBtn"> DELETE </a>
             </div>
           </div>
         </div>
       </div>
       <p id="info" class="box"></p>
     </div>
-    <script src="./res/js/main.js"></script>
+    <script src="./res/js/pet.js"></script>
   </body>
 </html>
